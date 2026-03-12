@@ -174,7 +174,7 @@ body {
   flex-shrink: 0;
   font-family: 'Plus Jakarta Sans', sans-serif;
   padding: 0;
-  padding-bottom: 1px;
+  padding-bottom: 3px;
 }
 
 .btn-plus {
@@ -237,3 +237,4 @@ body {
 .qty-num.popping {
   animation: pop 0.2s ease;
 }
+
