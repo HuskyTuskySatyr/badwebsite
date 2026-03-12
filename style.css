@@ -152,6 +152,7 @@ body {
 .card-controls {
   display: flex;
   align-items: center;
+  justify-content: center;
   gap: 10px;
 }
 
@@ -172,6 +173,8 @@ body {
   transition: background 0.15s, transform 0.1s;
   flex-shrink: 0;
   font-family: 'Plus Jakarta Sans', sans-serif;
+  padding: 0;
+  padding-bottom: 1px;
 }
 
 .btn-plus {
