@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Bubble Tea Laden</title>
+  <title>1 und ein Viertel Laden</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
@@ -14,7 +14,7 @@
   <header class="header">
     <div class="header-logo">
       <img src="images/logo.png" alt="Logo" class="logo-img" />
-      <span class="logo-name">Bubble Tea Laden</span>
+      <span class="logo-name">Laden</span>
     </div>
     <div class="header-cart">
       <span class="cart-label" id="cart-total">0 Sachen</span>
@@ -29,11 +29,14 @@
           <img src="images/chocolate.png" alt="Chocolate" class="card-img" />
         </div>
         <div class="card-footer">
-          <span class="card-name">Schokoladen Bubble Tea</span>
+          <span class="card-name">Milkshake mit Eis und Popcorn</span>
           <div class="card-controls">
-            <button class="btn-qty btn-minus">&#8722;</button>
-            <div class="qty-badge"><span class="qty-num">0</span></div>
-            <button class="btn-qty btn-plus">&#43;</button>
+            <div class="card-controls-left">
+              <button class="btn-qty btn-minus"></button>
+              <div class="qty-badge"><span class="qty-num">0</span></div>
+              <button class="btn-qty btn-plus"></button>
+            </div>
+            <span class="card-price">€5.90</span>
           </div>
         </div>
       </div>
@@ -43,67 +46,150 @@
           <img src="images/blueberry.png" alt="Blueberry" class="card-img" />
         </div>
         <div class="card-footer">
-          <span class="card-name">Blaubeeren(keine ahnung wie es in deutschen heißt) Bubble Tea</span>
+          <span class="card-name">Blaubeeren Bubble Tea</span>
           <div class="card-controls">
-            <button class="btn-qty btn-minus">&#8722;</button>
-            <div class="qty-badge"><span class="qty-num">0</span></div>
-            <button class="btn-qty btn-plus">&#43;</button>
+            <div class="card-controls-left">
+              <button class="btn-qty btn-minus"></button>
+              <div class="qty-badge"><span class="qty-num">0</span></div>
+              <button class="btn-qty btn-plus"></button>
+            </div>
+            <span class="card-price">€5.50</span>
           </div>
         </div>
       </div>
 
       <div class="card" data-id="standard">
         <div class="card-image-wrap">
-          <img src="images/standard.png" alt="Standard" class="card-img" />
+          <img src="images/bodenlose-gießkanne.png" alt="Standard" class="card-img" />
         </div>
         <div class="card-footer">
-          <span class="card-name">Standart Bubble Tea</span>
+          <span class="card-name">Bodenlose Gießkanne</span>
           <div class="card-controls">
-            <button class="btn-qty btn-minus">&#8722;</button>
-            <div class="qty-badge"><span class="qty-num">0</span></div>
-            <button class="btn-qty btn-plus">&#43;</button>
+            <div class="card-controls-left">
+              <button class="btn-qty btn-minus"></button>
+              <div class="qty-badge"><span class="qty-num">0</span></div>
+              <button class="btn-qty btn-plus"></button>
+            </div>
+            <span class="card-price">€7.90</span>
           </div>
         </div>
       </div>
 
       <div class="card" data-id="banana">
         <div class="card-image-wrap">
-          <img src="images/banana.png" alt="Banana" class="card-img" />
+          <img src="images/griffloses-schwert.png" alt="Banana" class="card-img" />
         </div>
         <div class="card-footer">
-          <span class="card-name">Bananen Bubble Tea</span>
+          <span class="card-name">Griffloses Schwert</span>
           <div class="card-controls">
-            <button class="btn-qty btn-minus">&#8722;</button>
-            <div class="qty-badge"><span class="qty-num">0</span></div>
-            <button class="btn-qty btn-plus">&#43;</button>
+            <div class="card-controls-left">
+              <button class="btn-qty btn-minus"></button>
+              <div class="qty-badge"><span class="qty-num">0</span></div>
+              <button class="btn-qty btn-plus"></button>
+            </div>
+            <span class="card-price">€25.20</span>
           </div>
         </div>
       </div>
 
       <div class="card" data-id="cherry">
         <div class="card-image-wrap">
-          <img src="images/cherry.png" alt="Cherry" class="card-img" />
+          <img src="images/tschernobyl.jpg" alt="Cherry" class="card-img" />
         </div>
         <div class="card-footer">
-          <span class="card-name">Kirschen Bubble Tea</span>
+          <span class="card-name">Tschernobyl Grundstück neben Atomreaktor</span>
           <div class="card-controls">
-            <button class="btn-qty btn-minus">&#8722;</button>
-            <div class="qty-badge"><span class="qty-num">0</span></div>
-            <button class="btn-qty btn-plus">&#43;</button>
+            <div class="card-controls-left">
+              <button class="btn-qty btn-minus"></button>
+              <div class="qty-badge"><span class="qty-num">0</span></div>
+              <button class="btn-qty btn-plus"></button>
+            </div>
+            <span class="card-price">€935 704.25</span>
           </div>
         </div>
       </div>
 
       <div class="card" data-id="coffee">
         <div class="card-image-wrap">
-          <img src="images/coffee.png" alt="Coffee" class="card-img" />
+          <img src="images/cup.png" alt="Coffee" class="card-img" />
         </div>
         <div class="card-footer">
-          <span class="card-name">Koffen Bubble Tea</span>
+          <span class="card-name">Nützliche Tasse</span>
           <div class="card-controls">
-            <button class="btn-qty btn-minus">&#8722;</button>
-            <div class="qty-badge"><span class="qty-num">0</span></div>
-            <button class="btn-qty btn-plus">&#43;</button>
+            <div class="card-controls-left">
+              <button class="btn-qty btn-minus"></button>
+              <div class="qty-badge"><span class="qty-num">0</span></div>
+              <button class="btn-qty btn-plus"></button>
+            </div>
+            <span class="card-price">€15.00</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="card" data-id="coffee">
+        <div class="card-image-wrap">
+          <img src="images/howler.png" alt="Coffee" class="card-img" />
+        </div>
+        <div class="card-footer">
+          <span class="card-name">Schreiendes Brief</span>
+          <div class="card-controls">
+            <div class="card-controls-left">
+              <button class="btn-qty btn-minus"></button>
+              <div class="qty-badge"><span class="qty-num">0</span></div>
+              <button class="btn-qty btn-plus"></button>
+            </div>
+            <span class="card-price">€125.67</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="card" data-id="coffee">
+        <div class="card-image-wrap">
+          <img src="images/basilisk.png" alt="Coffee" class="card-img" />
+        </div>
+        <div class="card-footer">
+          <span class="card-name">Basilisk</span>
+          <div class="card-controls">
+            <div class="card-controls-left">
+              <button class="btn-qty btn-minus"></button>
+              <div class="qty-badge"><span class="qty-num">0</span></div>
+              <button class="btn-qty btn-plus"></button>
+            </div>
+            <span class="card-price">In gute Hände</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="card" data-id="coffee">
+        <div class="card-image-wrap">
+          <img src="images/Bundle.png" alt="Coffee" class="card-img" />
+        </div>
+        <div class="card-footer">
+          <span class="card-name">Pazifik + Marianengraben Bundle</span>
+          <div class="card-controls">
+            <div class="card-controls-left">
+              <button class="btn-qty btn-minus"></button>
+              <div class="qty-badge"><span class="qty-num">0</span></div>
+              <button class="btn-qty btn-plus"></button>
+            </div>
+            <span class="card-price">€3 000 000 000</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="card" data-id="coffee">
+        <div class="card-image-wrap">
+          <img src="images/certificate.png" alt="Coffee" class="card-img" />
+        </div>
+        <div class="card-footer">
+          <span class="card-name">Ein Stein</span>
+          <div class="card-controls">
+            <div class="card-controls-left">
+              <button class="btn-qty btn-minus"></button>
+              <div class="qty-badge"><span class="qty-num">0</span></div>
+              <button class="btn-qty btn-plus"></button>
+            </div>
+            <span class="card-price">€5 000 000 000</span>
           </div>
         </div>
       </div>

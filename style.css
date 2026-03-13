@@ -152,8 +152,21 @@ body {
 .card-controls {
   display: flex;
   align-items: center;
-  justify-content: center;
-  gap: 10px;
+  justify-content: space-between;
+  gap: 0;
+}
+
+.card-controls-left {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.card-price {
+  font-size: 14px;
+  font-weight: 700;
+  color: var(--text-dark);
+  letter-spacing: -0.01em;
 }
 
 /* +/- buttons */
@@ -164,17 +177,43 @@ body {
   border: none;
   background: #e8e4de;
   color: var(--text-dark);
-  font-size: 17px;
-  line-height: 1;
+  font-size: 0;
   cursor: pointer;
   display: flex;
   align-items: center;
   justify-content: center;
   transition: background 0.15s, transform 0.1s;
   flex-shrink: 0;
-  font-family: 'Plus Jakarta Sans', sans-serif;
   padding: 0;
-  padding-bottom: 3px;
+  position: relative;
+}
+
+.btn-minus::before {
+  content: '';
+  display: block;
+  width: 10px;
+  height: 2px;
+  background: currentColor;
+  border-radius: 1px;
+}
+
+.btn-plus::before,
+.btn-plus::after {
+  content: '';
+  display: block;
+  position: absolute;
+  background: currentColor;
+  border-radius: 1px;
+}
+
+.btn-plus::before {
+  width: 10px;
+  height: 2px;
+}
+
+.btn-plus::after {
+  width: 2px;
+  height: 10px;
 }
 
 .btn-plus {
